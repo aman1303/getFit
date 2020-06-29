@@ -236,6 +236,9 @@ div.mobilestack{
     flex-wrap: wrap;
     padding: 12px;
     }
+    nav ul li .right {
+        float: right;
+    }
     .col-5 article p {
         /* display: block; */
         /* overflow: hidden; */
