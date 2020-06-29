@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: block;
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    min-height: 15px;
+    text-align: center;
+}
+
+nav ul li.right {
+    display: block;
+    float: right;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.col-20{
+    width: 20%;
+}
+.col-40{
+    width: 40%;
+}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#495057, #ced4da)
+    
+}
+
+div.cover .row h1 {
+    font-size: 70px;
+    font-family: cursive;
+}
+
+div.cover span {
+    font-size: 40px;
+}
+
+.col-6 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.col-6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    margin: 3%;
+    text-align: center;
+}
+
+.content h1 {
+    text-align: left;
+    margin-bottom: 1%;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.content .row {
+    margin-bottom: 2%;
+}
+
+.col-20,
+.col-40 {
+    /* padding: 5px; */
+    margin: 0px;
+}
+
+div.box {
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15),
+        0 2px 5px 0 rgba(0, 0, 0, .1);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+div.box p{
+    font-size: 17px;
+}
+button{
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+hr{
+    margin: 3%;
+}
+article p {
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+}
+footer{
+    background-color: black;
+}
+footer h2 {
+    color: whitesmoke;
+    margin-bottom: 1%;
+}
+footer p {
+    color: whitesmoke;
+    text-align: center;
+}
+.col-20 ul li,
+.col-40 ul li{
+    color: whitesmoke;
+    display: block;
+    line-height: 1.5;
+}
+footer.col-20 ul li,
+.col-40 ul li {
+    
+    list-style: none;
+    text-align: left;
+}
+div.row .col-20 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: left;
+}
+div.mobilestack{
+    text-align: left;
+}
+
+
+@media screen and (max-width:1000px){
+    .col-6,
+    .col-4,
+    .col-7,
+    .col-5,
+    .col-20,
+    .col-40{
+        width: 100%;
+        margin: 0;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        display: block;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    }
+    .col-5 article p {
+        /* display: block; */
+        /* overflow: hidden; */
+        /* border: 1px solid red; */
+        max-width: 100%;
+        height: auto;
+        /* margin: 4%; */
+        text-align: left;
+    }
+    div.video iframe{
+        /* position: relative; */
+        /* overflow: hidden; */
+        max-width: 100%;
+        max-height:80% ;
+        /* height: auto; */
+        margin: 0;
+    }
+    .mobilestack{
+        width: 50%;
+        display: block;
+        overflow: hidden;
+    }
+    .cover{
+        display: block;
+        width: 100%;
+    }
+    footer .row{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    footer h2 {
+        text-align: left;
+        margin-top: 4%;
+    }
+    footer ul li {
+        text-align: left;
+    }
+    footer p {
+        text-align: left;
+        margin-right: 2%;
+    }
+}
