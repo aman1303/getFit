@@ -228,12 +228,12 @@ div.mobilestack{
     }
     nav ul {
         display: flex;
+        justify-content: space-between;
     }
     nav ul li {
         display: block;
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 12px;
     }
     nav ul li .right {
