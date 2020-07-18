@@ -233,7 +233,6 @@ div.mobilestack{
     nav ul li {
         display: block;
     list-style: none;
-    /* flex-wrap: wrap; */
     padding: 12px;
     }
     nav ul li .right {
